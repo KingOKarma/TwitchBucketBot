@@ -22,6 +22,8 @@ const commandList = [
   { name: 'id', aliases: [ 'myid' ], permissionLevel: "normal", action: null },
   { name: '8ball', aliases: [ 'fortune' ], permissionLevel: "normal", action: null },
   { name: 'capitalize', aliases: [ 'caps' ], permissionLevel: "normal", action: null },
+  { name: 'say', aliases: [ 'echo' ], permissionLevel: "normal", action: null },
+
 
 
 
