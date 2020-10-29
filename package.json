@@ -1,0 +1,26 @@
+{
+  "name": "twitchbucketbot",
+  "version": "1.0.0",
+  "description": "The official bot for https://twitch.tv/King_O_Karma",
+  "main": "index.js",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.6.1",
+    "tmi": "^2.0.0",
+    "tmi.js": "^1.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KingOKarma/TwitchBucketBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KingOKarma/TwitchBucketBot/issues"
+  },
+  "homepage": "https://github.com/KingOKarma/TwitchBucketBot#readme"
+}
