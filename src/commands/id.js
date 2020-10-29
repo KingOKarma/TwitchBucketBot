@@ -5,7 +5,15 @@ const config = require("../config.json")
 module.exports = async ({ channel, tags, message, args, reply }) => {
 
 
+    if (args[0] === undefined) {
+        reply(`@${tags['username']} your ID is: ${tags['user-id']}`)
+        return
+    }
+
+
     if (args[0].match(/^[a-zA-Z0-9][\w]{3,24}$/) === null) return reply("That's not a user")
+
+
 
 
     if (args[0] !== undefined) {
