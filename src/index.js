@@ -1,5 +1,6 @@
 const tmi = require('tmi.js');
 const config = require("./config.json")
+const mongoose = require("mongoose");
 
 // Define configuration options
 const opts = {
@@ -13,6 +14,15 @@ const opts = {
 };
 // Create a client with our options
 const client = new tmi.client(opts);
+
+let db = config.db
+mongoose.connect(db, { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false})
+    .catch(err => {
+        console.error("mongoose error" + err);
+    })
+
+
+
 
 
 // Connect to Twitch:
