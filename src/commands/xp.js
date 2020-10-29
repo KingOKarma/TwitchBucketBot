@@ -20,12 +20,12 @@ module.exports = async ({ channel, tags, message, args, reply }) => {
                 //      .addField("Global XP for next level", xp.level * 300 * 2, true)
                 //     .addField("Global Xp left", xp.level * 300 * 2 - xp.xp, true)
                 //     .catch(() => {
-                reply(`@${User.login} is level ${xp.level} with ${xp.xp}xp, You need ${xp.level * 200 * 2 - xp.xp} more xp to level up.`)
+                reply(`@${User.login} is level ${xp.level} with ${xp.xp}xp, ${extraMSG} need ${xp.level * 200 * 2 - xp.xp} more xp to level up.`)
                 // })
 
             } else {
 
-                reply(`@${User.login} is level 0 with 0xp, You need 0 more xp to level up.`)
+                reply(`@${User.login} is level 0 with 0xp, ${extraMSG} need 0 more xp to level up.`)
 
 
 
