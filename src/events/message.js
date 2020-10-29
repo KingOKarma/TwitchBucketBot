@@ -20,6 +20,11 @@ const commandList = [
   { name: 'viewers', aliases: [ 'viewercount' ], permissionLevel: "normal", action: null },
   { name: 'pp', aliases: [ 'size' ], permissionLevel: "normal", action: null },
   { name: 'id', aliases: [ 'myid' ], permissionLevel: "normal", action: null },
+  { name: '8ball', aliases: [ 'fortune' ], permissionLevel: "normal", action: null },
+  { name: 'capitalize', aliases: [ 'caps' ], permissionLevel: "normal", action: null },
+
+
+
 
 
 ];
